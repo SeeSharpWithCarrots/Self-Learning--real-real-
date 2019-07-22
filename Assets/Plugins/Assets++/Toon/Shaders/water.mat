@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: water
+  m_Shader: {fileID: 4800000, guid: 6c6fa843e51994dbe863700da62f92aa, type: 3}
+  m_ShaderKeywords: _ONOFFSHADOW_ON _SHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base:
+        m_Texture: {fileID: 2800000, guid: b486e594301cfce45a4d460de6129309, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAmbient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionToon:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Patterntexture:
+        m_Texture: {fileID: 2800000, guid: c64cbcb20b5e1436ca67fd4d3dcd212b, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _Ripple:
+        m_Texture: {fileID: 8400000, guid: 7fa3e1b179def3247bfadf761e5d7e67, type: 2}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonBump:
+        m_Texture: {fileID: 8400000, guid: 7fa3e1b179def3247bfadf761e5d7e67, type: 2}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: c84e3ff12d093be4b84f183c567c9696, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _lightmap:
+        m_Texture: {fileID: 2800000, guid: a08b9670ebb584b3e8ade356c6529ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _refractionmap:
+        m_Texture: {fileID: 8400000, guid: 7fa3e1b179def3247bfadf761e5d7e67, type: 2}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ambientColorTex:
+        m_Texture: {fileID: 2800000, guid: 2fe0f483b398dd8458d2a90463fcc0e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorShadeScale: 2
+    - _Cutoff: 0.5
+    - _DetailACToggle: 0
+    - _Gloss: 1
+    - _Opacity: 0.5
+    - _OutlineWidth: 0
+    - _Pattern: 0
+    - _ShadeColorOverride: 0
+    - _ToonScale: 0.072
+    - _ToonySpecular: 1
+    - _onoffshadow: 1
+    - _refractionintensity: 0.0025
+    - _shadow: 1
+    - _shadowvalue: 0
+    m_Colors:
+    - _DiffuseBrightControl: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _OutLineUnderColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    - _Ripplecolor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpceColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _basecolor: {r: 0, g: 0.3962264, b: 0.38746274, a: 1}
+    - _patterncolor: {r: 0, g: 0.9372549, b: 1, a: 1}
+    - _shadowintensity: {r: 1, g: 1, b: 1, a: 1}

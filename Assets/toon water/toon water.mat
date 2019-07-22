@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: toon water
+  m_Shader: {fileID: 4800000, guid: f51242bf010db41cb9f67f3af5cddbf0, type: 3}
+  m_ShaderKeywords: _SHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailAmbient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTextue:
+        m_Texture: {fileID: 2800000, guid: 1216da04507f146fea9fe03268433d3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionToon:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Patterntexture:
+        m_Texture: {fileID: 2800000, guid: c64cbcb20b5e1436ca67fd4d3dcd212b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonBump:
+        m_Texture: {fileID: 2800000, guid: ef6395f71f43d4e0ab74b544a010c186, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: c84e3ff12d093be4b84f183c567c9696, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _lightmap:
+        m_Texture: {fileID: 2800000, guid: a08b9670ebb584b3e8ade356c6529ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _refractionmap:
+        m_Texture: {fileID: 2800000, guid: f6acd684980920849a180e1c541fb199, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ambientColorTex:
+        m_Texture: {fileID: 2800000, guid: 2fe0f483b398dd8458d2a90463fcc0e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorShadeScale: 2
+    - _Cutoff: 0.5
+    - _DetailACToggle: 0
+    - _Gloss: 0.754
+    - _Opacity: 0
+    - _OutlineWidth: 0
+    - _Pattern: 0
+    - _ShadeColorOverride: 0
+    - _ToonScale: 0.767
+    - _ToonySpecular: 0
+    - _Uspeed: 0.2
+    - _Vspeed: 0.1
+    - _onoffshadow: 0
+    - _refractionintensity: 0.032
+    - _shadow: 1
+    - _shadowvalue: 0
+    m_Colors:
+    - _DiffuseBrightControl: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Diffusecolor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutLineUnderColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SpceColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _patterncolor: {r: 1, g: 1, b: 1, a: 1}
+    - _shadowintensity: {r: 1, g: 1, b: 1, a: 1}

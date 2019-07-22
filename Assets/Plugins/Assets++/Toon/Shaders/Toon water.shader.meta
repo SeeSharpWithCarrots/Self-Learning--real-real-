@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f51242bf010db41cb9f67f3af5cddbf0
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ToonBump: {fileID: 2800000, guid: c0266359fdc5945e4b4e286b2518ccd2, type: 3}
+  - _DiffuseTextue: {fileID: 2800000, guid: b3516668a1a6cfd4c808390072b25572, type: 3}
+  - _ToonRamp: {fileID: 2800000, guid: c84e3ff12d093be4b84f183c567c9696, type: 3}
+  - ambientColorTex: {fileID: 2800000, guid: 2fe0f483b398dd8458d2a90463fcc0e8, type: 3}
+  - _Patterntexture: {fileID: 2800000, guid: c64cbcb20b5e1436ca67fd4d3dcd212b, type: 3}
+  - _lightmap: {fileID: 2800000, guid: c84e3ff12d093be4b84f183c567c9696, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
